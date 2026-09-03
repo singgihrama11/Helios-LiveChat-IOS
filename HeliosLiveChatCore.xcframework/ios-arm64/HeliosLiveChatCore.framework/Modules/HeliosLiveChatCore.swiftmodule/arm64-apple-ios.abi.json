@@ -1,0 +1,1666 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "HeliosLiveChatCore",
+    "printedName": "HeliosLiveChatCore",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveChatConfig",
+        "printedName": "LiveChatConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV2idSSvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV2idSSvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV2idSSvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV2idSSvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bottomMargin",
+            "printedName": "bottomMargin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV12bottomMargin0D10Foundation7CGFloatVvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV12bottomMargin0D8Graphics7CGFloatVvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV12bottomMargin0D10Foundation7CGFloatVvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV12bottomMargin0D8Graphics7CGFloatVvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "trailingMargin",
+            "printedName": "trailingMargin",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV14trailingMargin0D10Foundation7CGFloatVvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV14trailingMargin0D8Graphics7CGFloatVvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV14trailingMargin0D10Foundation7CGFloatVvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV14trailingMargin0D8Graphics7CGFloatVvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fabSize",
+            "printedName": "fabSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fabSize0D10Foundation7CGFloatVvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fabSize0D8Graphics7CGFloatVvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fabSize0D10Foundation7CGFloatVvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fabSize0D8Graphics7CGFloatVvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fabColor",
+            "printedName": "fabColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fabIconColor",
+            "printedName": "fabIconColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fabIcon",
+            "printedName": "fabIcon",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Image?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Image",
+                        "printedName": "SwiftUI.Image",
+                        "usr": "s:7SwiftUI5ImageV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvg",
+                "moduleName": "HeliosLiveChatCore",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(id:bottomMargin:trailingMargin:fabSize:fabColor:fabIconColor:fabIcon:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatConfig",
+                "printedName": "HeliosLiveChatCore.LiveChatConfig",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "hasDefaultArg": true,
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "hasDefaultArg": true,
+                "usr": "s:7SwiftUI5ColorV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Image?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Image",
+                    "printedName": "SwiftUI.Image",
+                    "usr": "s:7SwiftUI5ImageV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV2id12bottomMargin08trailingH07fabSize0J5Color0j4IconL00jM0ACSS_0D10Foundation7CGFloatVA2M7SwiftUI0L0VApN5ImageVSgtcfc",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV2id12bottomMargin08trailingH07fabSize0J5Color0j4IconL00jM0ACSS_0D8Graphics7CGFloatVA2M7SwiftUI0L0VApN5ImageVSgtcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "defaultButtonColor",
+            "printedName": "defaultButtonColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Color",
+                "printedName": "SwiftUI.Color",
+                "usr": "s:7SwiftUI5ColorV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV18defaultButtonColor7SwiftUI0H0VvpZ",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV18defaultButtonColor7SwiftUI0H0VvpZ",
+            "moduleName": "HeliosLiveChatCore",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV18defaultButtonColor7SwiftUI0H0VvgZ",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV18defaultButtonColor7SwiftUI0H0VvgZ",
+                "moduleName": "HeliosLiveChatCore",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fullURL",
+            "printedName": "fullURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fullURL10Foundation0G0Vvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fullURL10Foundation0G0Vvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fullURL10Foundation0G0Vvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fullURL10Foundation0G0Vvg",
+                "moduleName": "HeliosLiveChatCore",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18HeliosLiveChatCore0bC6ConfigV",
+        "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV",
+        "moduleName": "HeliosLiveChatCore",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveChatOverlayButton",
+        "printedName": "LiveChatOverlayButton",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatOverlayButton",
+                "printedName": "HeliosLiveChatCore.LiveChatOverlayButton",
+                "usr": "s:18HeliosLiveChatCore0bC13OverlayButtonV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatConfig",
+                "printedName": "HeliosLiveChatCore.LiveChatConfig",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18HeliosLiveChatCore0bC13OverlayButtonV6configAcA0bC6ConfigV_tcfc",
+            "mangledName": "$s18HeliosLiveChatCore0bC13OverlayButtonV6configAcA0bC6ConfigV_tcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC13OverlayButtonV4bodyQrvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC13OverlayButtonV4bodyQrvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC13OverlayButtonV4bodyQrvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC13OverlayButtonV4bodyQrvg",
+                "moduleName": "HeliosLiveChatCore",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18HeliosLiveChatCore0bC13OverlayButtonV",
+        "mangledName": "$s18HeliosLiveChatCore0bC13OverlayButtonV",
+        "moduleName": "HeliosLiveChatCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveChatOverlayButtonView",
+        "printedName": "LiveChatOverlayButtonView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatOverlayButtonView",
+                "printedName": "HeliosLiveChatCore.LiveChatOverlayButtonView",
+                "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatOverlayButtonView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatConfig",
+                "printedName": "HeliosLiveChatCore.LiveChatConfig",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18HeliosLiveChatCore0bC17OverlayButtonViewC6configAcA0bC6ConfigV_tcfc",
+            "mangledName": "$s18HeliosLiveChatCore0bC17OverlayButtonViewC6configAcA0bC6ConfigV_tcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hitTest",
+            "printedName": "hitTest(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatOverlayButtonView(im)hitTest:withEvent:",
+            "mangledName": "$s18HeliosLiveChatCore0bC17OverlayButtonViewC7hitTest_4withSo6UIViewCSgSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "HeliosLiveChatCore",
+            "overriding": true,
+            "objc_name": "hitTest:withEvent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatOverlayButtonView",
+                "printedName": "HeliosLiveChatCore.LiveChatOverlayButtonView",
+                "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatOverlayButtonView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatOverlayButtonView(im)initWithFrame:",
+            "mangledName": "$s18HeliosLiveChatCore0bC17OverlayButtonViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatOverlayButtonView",
+        "mangledName": "$s18HeliosLiveChatCore0bC17OverlayButtonViewC",
+        "moduleName": "HeliosLiveChatCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveChatWidgetView",
+        "printedName": "LiveChatWidgetView",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatWidgetView",
+                "printedName": "HeliosLiveChatCore.LiveChatWidgetView",
+                "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatWidgetView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatConfig",
+                "printedName": "HeliosLiveChatCore.LiveChatConfig",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18HeliosLiveChatCore0bC10WidgetViewC6configAcA0bC6ConfigV_tcfc",
+            "mangledName": "$s18HeliosLiveChatCore0bC10WidgetViewC6configAcA0bC6ConfigV_tcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "hitTest",
+            "printedName": "hitTest(_:with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIEvent?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIEvent",
+                    "printedName": "UIKit.UIEvent",
+                    "usr": "c:objc(cs)UIEvent"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatWidgetView(im)hitTest:withEvent:",
+            "mangledName": "$s18HeliosLiveChatCore0bC10WidgetViewC7hitTest_4withSo6UIViewCSgSo7CGPointV_So7UIEventCSgtF",
+            "moduleName": "HeliosLiveChatCore",
+            "overriding": true,
+            "objc_name": "hitTest:withEvent:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(frame:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatWidgetView",
+                "printedName": "HeliosLiveChatCore.LiveChatWidgetView",
+                "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatWidgetView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGRect",
+                "printedName": "CoreFoundation.CGRect",
+                "usr": "c:@S@CGRect"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatWidgetView(im)initWithFrame:",
+            "mangledName": "$s18HeliosLiveChatCore0bC10WidgetViewC5frameACSo6CGRectV_tcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithFrame:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@HeliosLiveChatCore@objc(cs)LiveChatWidgetView",
+        "mangledName": "$s18HeliosLiveChatCore0bC10WidgetViewC",
+        "moduleName": "HeliosLiveChatCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "Final",
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LiveChatWidget",
+        "printedName": "LiveChatWidget",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(config:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatWidget",
+                "printedName": "HeliosLiveChatCore.LiveChatWidget",
+                "usr": "s:18HeliosLiveChatCore0bC6WidgetV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LiveChatConfig",
+                "printedName": "HeliosLiveChatCore.LiveChatConfig",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:18HeliosLiveChatCore0bC6WidgetV6configAcA0bC6ConfigV_tcfc",
+            "mangledName": "$s18HeliosLiveChatCore0bC6WidgetV6configAcA0bC6ConfigV_tcfc",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OpaqueTypeArchetype",
+                "printedName": "some SwiftUI.View",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "View",
+                    "printedName": "SwiftUI.View",
+                    "usr": "s:7SwiftUI4ViewP"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:18HeliosLiveChatCore0bC6WidgetV4bodyQrvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6WidgetV4bodyQrvp",
+            "moduleName": "HeliosLiveChatCore",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:18HeliosLiveChatCore0bC6WidgetV4bodyQrvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6WidgetV4bodyQrvg",
+                "moduleName": "HeliosLiveChatCore",
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:18HeliosLiveChatCore0bC6WidgetV",
+        "mangledName": "$s18HeliosLiveChatCore0bC6WidgetV",
+        "moduleName": "HeliosLiveChatCore",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "View",
+            "printedName": "View",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Body",
+                "printedName": "Body",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some SwiftUI.View",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7SwiftUI4ViewP",
+            "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphoneos\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 307,
+      "length": 39,
+      "value": "\"HeliosLiveChatCore_HeliosLiveChatCore\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphoneos\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "Array",
+      "offset": 993,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphoneos\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1520,
+      "length": 9,
+      "value": "\".bundle\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-ios\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphoneos\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "kind": "StringLiteral",
+      "offset": 1672,
+      "length": 67,
+      "value": "\"unable to find bundle named HeliosLiveChatCore_HeliosLiveChatCore\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1128,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1166,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1197,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1694,
+      "length": 58,
+      "value": "\"https:\/\/neo-livechat-widget.azurewebsites.net\/sdk-mobile\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1892,
+      "length": 4,
+      "value": "0x36"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1899,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1921,
+      "length": 4,
+      "value": "0x34"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1928,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1949,
+      "length": 4,
+      "value": "0x34"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "FloatLiteral",
+      "offset": 1956,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 287,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 336,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 503,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 543,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 588,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 639,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 677,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 666,
+      "length": 4,
+      "value": "0xF5"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "FloatLiteral",
+      "offset": 673,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 695,
+      "length": 4,
+      "value": "0xF5"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "FloatLiteral",
+      "offset": 702,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 723,
+      "length": 4,
+      "value": "0xF5"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "FloatLiteral",
+      "offset": 730,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "FloatLiteral",
+      "offset": 792,
+      "length": 3,
+      "value": "0.9"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 843,
+      "length": 2,
+      "value": "20"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatResources.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 6,
+      "value": "\"logo\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatResources.swift",
+      "kind": "StringLiteral",
+      "offset": 277,
+      "length": 5,
+      "value": "\"png\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWebView.swift",
+      "kind": "StringLiteral",
+      "offset": 607,
+      "length": 271,
+      "value": "\"var s=document.createElement('style');s.textContent='html,body{overflow:hidden!important;overscroll-behavior:none!important;}::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}';document.head.appendChild(s);\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWidget.swift",
+      "kind": "BooleanLiteral",
+      "offset": 647,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

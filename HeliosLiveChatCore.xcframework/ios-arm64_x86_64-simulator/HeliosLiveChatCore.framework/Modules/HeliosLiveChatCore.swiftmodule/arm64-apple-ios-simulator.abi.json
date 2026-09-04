@@ -33,6 +33,20 @@
         "moduleName": "HeliosLiveChatCore"
       },
       {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LiveChatConfig",
         "printedName": "LiveChatConfig",
@@ -219,19 +233,19 @@
           },
           {
             "kind": "Var",
-            "name": "fabColor",
-            "printedName": "fabColor",
+            "name": "verbose",
+            "printedName": "verbose",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Var",
-            "usr": "s:18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvp",
-            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvp",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV7verboseSbvp",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7verboseSbvp",
             "moduleName": "HeliosLiveChatCore",
             "declAttributes": [
               "HasStorage",
@@ -248,120 +262,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvg",
-                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV8fabColor7SwiftUI0G0Vvg",
-                "moduleName": "HeliosLiveChatCore",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "fabIconColor",
-            "printedName": "fabIconColor",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "usr": "s:7SwiftUI5ColorV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvp",
-            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvp",
-            "moduleName": "HeliosLiveChatCore",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Color",
-                    "printedName": "SwiftUI.Color",
-                    "usr": "s:7SwiftUI5ColorV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvg",
-                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV12fabIconColor7SwiftUI0H0Vvg",
-                "moduleName": "HeliosLiveChatCore",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "fabIcon",
-            "printedName": "fabIcon",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Image?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Image",
-                    "printedName": "SwiftUI.Image",
-                    "usr": "s:7SwiftUI5ImageV"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvp",
-            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvp",
-            "moduleName": "HeliosLiveChatCore",
-            "declAttributes": [
-              "HasStorage",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "SwiftUI.Image?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "SwiftUI.Image",
-                        "usr": "s:7SwiftUI5ImageV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvg",
-                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7fabIcon7SwiftUI5ImageVSgvg",
+                "usr": "s:18HeliosLiveChatCore0bC6ConfigV7verboseSbvg",
+                "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV7verboseSbvg",
                 "moduleName": "HeliosLiveChatCore",
                 "implicit": true,
                 "accessorKind": "get"
@@ -371,7 +279,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(id:bottomMargin:trailingMargin:fabSize:fabColor:fabIconColor:fabIcon:)",
+            "printedName": "init(id:bottomMargin:trailingMargin:fabSize:verbose:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -408,37 +316,15 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Color",
-                "printedName": "SwiftUI.Color",
-                "hasDefaultArg": true,
-                "usr": "s:7SwiftUI5ColorV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.Image?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Image",
-                    "printedName": "SwiftUI.Image",
-                    "usr": "s:7SwiftUI5ImageV"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
+                "usr": "s:Sb"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:18HeliosLiveChatCore0bC6ConfigV2id12bottomMargin08trailingH07fabSize0J5Color0j4IconL00jM0ACSS_0D10Foundation7CGFloatVA2M7SwiftUI0L0VApN5ImageVSgtcfc",
-            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV2id12bottomMargin08trailingH07fabSize0J5Color0j4IconL00jM0ACSS_0D8Graphics7CGFloatVA2M7SwiftUI0L0VApN5ImageVSgtcfc",
+            "usr": "s:18HeliosLiveChatCore0bC6ConfigV2id12bottomMargin08trailingH07fabSize7verboseACSS_0D10Foundation7CGFloatVA2KSbtcfc",
+            "mangledName": "$s18HeliosLiveChatCore0bC6ConfigV2id12bottomMargin08trailingH07fabSize7verboseACSS_0D8Graphics7CGFloatVA2KSbtcfc",
             "moduleName": "HeliosLiveChatCore",
             "declAttributes": [
               "AccessControl"
@@ -582,6 +468,34 @@
         "moduleName": "HeliosLiveChatCore"
       },
       {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
         "kind": "TypeDecl",
         "name": "LiveChatOverlayButton",
         "printedName": "LiveChatOverlayButton",
@@ -679,7 +593,8 @@
         "declAttributes": [
           "Preconcurrency",
           "Custom",
-          "AccessControl"
+          "AccessControl",
+          "RawDocComment"
         ],
         "conformances": [
           {
@@ -1254,6 +1169,13 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
         "declKind": "Import",
@@ -1422,8 +1344,36 @@
       },
       {
         "kind": "Import",
+        "name": "os",
+        "printedName": "os",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "HeliosLiveChatCore"
       }
@@ -1462,175 +1412,217 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1128,
+      "offset": 1321,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1166,
+      "offset": 1359,
       "length": 2,
       "value": "24"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1197,
+      "offset": 1390,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1418,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1694,
+      "offset": 1796,
       "length": 58,
       "value": "\"https:\/\/neo-livechat-widget.azurewebsites.net\/sdk-mobile\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1892,
+      "offset": 2005,
       "length": 4,
       "value": "0x36"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 1899,
+      "offset": 2012,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1921,
+      "offset": 2034,
       "length": 4,
       "value": "0x34"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 1928,
+      "offset": 2041,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 1949,
+      "offset": 2062,
       "length": 4,
       "value": "0x34"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 1956,
+      "offset": 2069,
       "length": 5,
       "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2702,
+      "length": 35,
+      "value": "\"https:\/\/neo-livechat-be.helios.id\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2863,
+      "length": 47,
+      "value": "\"https:\/\/neo-livechat-widget.azurewebsites.net\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3014,
+      "length": 39,
+      "value": "\"neo-livechat-widget.azurewebsites.net\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 3152,
+      "length": 27,
+      "value": "\"neo-livechat-be.helios.id\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatEngine.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1249,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 287,
+      "offset": 1059,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 336,
+      "offset": 1108,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 503,
+      "offset": 1275,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 543,
+      "offset": 1315,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 588,
+      "offset": 1360,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 639,
+      "offset": 1411,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 677,
+      "offset": 1449,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 666,
+      "offset": 697,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 673,
+      "offset": 704,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
+      "offset": 726,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 702,
+      "offset": 733,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 723,
+      "offset": 754,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 730,
+      "offset": 761,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 792,
+      "offset": 823,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 843,
+      "offset": 874,
       "length": 2,
       "value": "20"
     },
@@ -1651,16 +1643,72 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWebView.swift",
       "kind": "StringLiteral",
-      "offset": 607,
+      "offset": 680,
       "length": 271,
       "value": "\"var s=document.createElement('style');s.textContent='html,body{overflow:hidden!important;overscroll-behavior:none!important;}::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}';document.head.appendChild(s);\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWidget.swift",
       "kind": "BooleanLiteral",
-      "offset": 647,
+      "offset": 1197,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SSEClient.swift",
+      "kind": "StringLiteral",
+      "offset": 616,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SSEClient.swift",
+      "kind": "StringLiteral",
+      "offset": 642,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SSEClient.swift",
+      "kind": "Array",
+      "offset": 2899,
+      "length": 20,
+      "value": "[1, 2, 4, 8, 16, 30]"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/ServerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1172,
+      "length": 14,
+      "value": "\"agent_unread\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/ServerConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 13,
+      "value": "\"user_unread\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1050,
+      "length": 15,
+      "value": "\"HeliosSession\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1362,
+      "length": 145,
+      "value": "\"window.HeliosSession = {\n  postMessage: function (id) { window.webkit.messageHandlers.HeliosSession.postMessage(id); }\n};\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1985,
+      "length": 1338,
+      "value": "\"(function () {\n  if (window.__heliosSessionWatch) return;\n  window.__heliosSessionWatch = 1;\n  var lastToken, lastId = null, busy = false;\n  function log(m) { try { console.log('[helios] ' + m); } catch (e) {} }\n  function keys() { try { return Object.keys(localStorage).join(','); } catch (e) { return '?'; } }\n  function resolve(t) {\n    busy = true;\n    fetch('<API_BASE>\/member\/checkme', { headers: { 'Authorization': 'Bearer ' + t } })\n      .then(function (r) { if (!r.ok) { log('checkme HTTP ' + r.status); return null; } return r.json(); })\n      .then(function (j) {\n        if (!j) return;\n        var id = j.data && j.data.chat_session;\n        if (!id) { log('no chat_session yet'); return; }\n        if (id !== lastId) { lastId = id; HeliosSession.postMessage(id); }\n      })\n      .catch(function (e) { log('checkme failed: ' + e); })\n      .then(function () { busy = false; });\n  }\n  setInterval(function () {\n    var t = null;\n    try { t = localStorage.getItem('kouventa-livechat.access_token'); } catch (e) {}\n    if (t !== lastToken) { lastToken = t; lastId = null; log(t ? 'token found' : 'no token, keys=[' + keys() + ']'); }\n    if (!t || lastId || busy) return;\n    resolve(t);\n  }, 2000);\n})();\""
     }
   ]
 }

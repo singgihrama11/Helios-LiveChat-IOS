@@ -1145,7 +1145,7 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 489,
+      "offset": 538,
       "length": 5,
       "value": "false"
     },
@@ -1271,9 +1271,16 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWebView.swift",
       "kind": "StringLiteral",
-      "offset": 196,
+      "offset": 370,
       "length": 271,
       "value": "\"var s=document.createElement('style');s.textContent='html,body{overflow:hidden!important;overscroll-behavior:none!important;}::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}';document.head.appendChild(s);\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWebView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4446,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/MemberTokenStore.swift",
@@ -1285,14 +1292,21 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/MemberTokenStore.swift",
       "kind": "BooleanLiteral",
-      "offset": 1579,
+      "offset": 358,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/MemberTokenStore.swift",
       "kind": "BooleanLiteral",
-      "offset": 1644,
+      "offset": 2249,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/MemberTokenStore.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2314,
       "length": 5,
       "value": "false"
     },
@@ -1348,37 +1362,51 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 594,
-      "length": 728,
-      "value": "\"(function () {\n  if (window.__heliosBridge) return;\n  window.__heliosBridge = 1;\n  var ready = false, queue = [];\n  function post(m) { window.postMessage(m, '*'); if (window.__heliosDebug) { try { console.log('[helios] sent ' + m.type); } catch (e) {} } }\n  function flush() { ready = true; while (queue.length) post(queue.shift()); }\n  window.addEventListener('message', function (e) { if (e.data === 'iframeReady') flush(); });\n  setTimeout(function () { if (!ready) flush(); }, 3000);\n  window.__heliosSetMemberPayload = function (p) {\n    var m = { type: 'SET_MEMBER_PAYLOAD', payload: p };\n    if (ready) { post(m); return; }\n    queue.push(m);\n  };\n})();\""
+      "offset": 606,
+      "length": 20,
+      "value": "\"HeliosSessionEnded\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1356,
+      "offset": 656,
+      "length": 896,
+      "value": "\"(function () {\n  if (window.__heliosBridge) return;\n  window.__heliosBridge = 1;\n  var ready = false, queue = [];\n  function post(m) { window.postMessage(m, '*'); if (window.__heliosDebug) { try { console.log('[helios] sent ' + m.type); } catch (e) {} } }\n  function flush() { ready = true; while (queue.length) post(queue.shift()); }\n  window.addEventListener('message', function (e) { if (e.data === 'iframeReady') flush(); });\n  setTimeout(function () { if (!ready) flush(); }, 3000);\n  window.__heliosSetMemberPayload = function (p) {\n    var m = { type: 'SET_MEMBER_PAYLOAD', payload: p };\n    if (ready) { post(m); return; }\n    queue.push(m);\n  };\n  window.__heliosSignOutMember = function () {\n    var m = { type: 'MEMBER_SIGN_OUT' };\n    if (ready) { post(m); return; }\n    queue.push(m);\n  };\n})();\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1665,
+      "length": 65,
+      "value": "\"window.__heliosSignOutMember && window.__heliosSignOutMember();\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1764,
       "length": 372,
       "value": "\"window.__heliosDebug = true;\n(function () {\n  var orig = console.log;\n  console.log = function () {\n    try {\n      window.webkit.messageHandlers.\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1551,
+      "offset": 1959,
       "length": 1,
       "value": "\".postMessage(\n        Array.prototype.join.call(arguments, ' ')\n      );\n    } catch (e) {}\n    return orig.apply(console, arguments);\n  };\n})();\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
-      "length": 145,
-      "value": "\"window.HeliosSession = {\n  postMessage: function (id) { window.webkit.messageHandlers.HeliosSession.postMessage(id); }\n};\""
+      "offset": 2435,
+      "length": 253,
+      "value": "\"window.HeliosSession = {\n  postMessage: function (id) { window.webkit.messageHandlers.HeliosSession.postMessage(id); },\n  sessionEnded: function () { window.webkit.messageHandlers.HeliosSessionEnded.postMessage('ended'); }\n};\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2343,
-      "length": 1373,
-      "value": "\"(function () {\n  if (window.__heliosSessionWatch) return;\n  window.__heliosSessionWatch = 1;\n  var lastToken, lastId = null, busy = false;\n  function log(m) { if (!window.__heliosDebug) return; try { console.log('[helios] ' + m); } catch (e) {} }\n  function keys() { try { return Object.keys(localStorage).join(','); } catch (e) { return '?'; } }\n  function resolve(t) {\n    busy = true;\n    fetch('<API_BASE>\/member\/checkme', { headers: { 'Authorization': 'Bearer ' + t } })\n      .then(function (r) { if (!r.ok) { log('checkme HTTP ' + r.status); return null; } return r.json(); })\n      .then(function (j) {\n        if (!j) return;\n        var id = j.data && j.data.chat_session;\n        if (!id) { log('no chat_session yet'); return; }\n        if (id !== lastId) { lastId = id; HeliosSession.postMessage(id); }\n      })\n      .catch(function (e) { log('checkme failed: ' + e); })\n      .then(function () { busy = false; });\n  }\n  setInterval(function () {\n    var t = null;\n    try { t = localStorage.getItem('kouventa-livechat.access_token'); } catch (e) {}\n    if (t !== lastToken) { lastToken = t; lastId = null; log(t ? 'token found' : 'no token, keys=[' + keys() + ']'); }\n    if (!t || lastId || busy) return;\n    resolve(t);\n  }, 2000);\n})();\""
+      "offset": 2859,
+      "length": 1514,
+      "value": "\"(function () {\n  if (window.__heliosSessionWatch) return;\n  window.__heliosSessionWatch = 1;\n  var lastToken, lastId = null, busy = false;\n  function log(m) { if (!window.__heliosDebug) return; try { console.log('[helios] ' + m); } catch (e) {} }\n  function keys() { try { return Object.keys(localStorage).join(','); } catch (e) { return '?'; } }\n  function resolve(t) {\n    busy = true;\n    fetch('<API_BASE>\/member\/checkme', { headers: { 'Authorization': 'Bearer ' + t } })\n      .then(function (r) { if (!r.ok) { log('checkme HTTP ' + r.status); return null; } return r.json(); })\n      .then(function (j) {\n        if (!j) return;\n        var id = j.data && j.data.chat_session;\n        if (!id) { log('no chat_session yet'); return; }\n        if (id !== lastId) { lastId = id; HeliosSession.postMessage(id); }\n      })\n      .catch(function (e) { log('checkme failed: ' + e); })\n      .then(function () { busy = false; });\n  }\n  setInterval(function () {\n    var t = null;\n    try { t = localStorage.getItem('kouventa-livechat.access_token'); } catch (e) {}\n    if (t !== lastToken) {\n      var had = !!lastToken;\n      lastToken = t; lastId = null;\n      log(t ? 'token found' : 'no token, keys=[' + keys() + ']');\n      if (had && !t) { try { HeliosSession.sessionEnded(); } catch (e) {} }\n    }\n    if (!t || lastId || busy) return;\n    resolve(t);\n  }, 2000);\n})();\""
     }
   ]
 }

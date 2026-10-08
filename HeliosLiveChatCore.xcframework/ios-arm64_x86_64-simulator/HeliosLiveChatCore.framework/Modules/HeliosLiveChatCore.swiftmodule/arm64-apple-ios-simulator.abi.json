@@ -27,6 +27,20 @@
       },
       {
         "kind": "Import",
+        "name": "ImageIO",
+        "printedName": "ImageIO",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -36,6 +50,20 @@
         "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HeliosLiveChatCore"
       },
@@ -419,6 +447,13 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "HeliosLiveChatCore"
       },
@@ -1000,8 +1035,22 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "HeliosLiveChatCore"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "HeliosLiveChatCore"
       },
@@ -1017,32 +1066,81 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 307,
       "length": 39,
       "value": "\"HeliosLiveChatCore_HeliosLiveChatCore\""
     },
     {
-      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "Array",
       "offset": 993,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1520,
       "length": 9,
       "value": "\".bundle\""
     },
     {
-      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore.build\/DerivedSources\/resource_bundle_accessor.swift",
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/build\/dd-sim\/Build\/Intermediates.noindex\/ArchiveIntermediates\/HeliosLiveChatCore\/IntermediateBuildFilesPath\/HeliosLiveChatCore.build\/Release-iphonesimulator\/HeliosLiveChatCore-t.build\/DerivedSources\/resource_bundle_accessor.swift",
       "kind": "StringLiteral",
       "offset": 1672,
       "length": 67,
       "value": "\"unable to find bundle named HeliosLiveChatCore_HeliosLiveChatCore\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/AnimatedImageDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 85,
+      "length": 3,
+      "value": "300"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/AnimatedImageDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 124,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/AnimatedImageDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1300,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/AnimatedImageDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1351,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/AnimatedImageDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1376,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/AnimatedImageDecoder.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1482,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/ImagePreviewView.swift",
+      "kind": "BooleanLiteral",
+      "offset": 179,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
@@ -1068,191 +1166,268 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "StringLiteral",
-      "offset": 515,
-      "length": 58,
-      "value": "\"https:\/\/neo-livechat-widget.azurewebsites.net\/sdk-mobile\""
+      "offset": 613,
+      "length": 46,
+      "value": "\"https:\/\/kouventa-widget.helios.id\/sdk-mobile\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 638,
+      "offset": 724,
       "length": 4,
       "value": "0x36"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 645,
+      "offset": 731,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 667,
+      "offset": 753,
       "length": 4,
       "value": "0x34"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 674,
+      "offset": 760,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 695,
+      "offset": 781,
       "length": 4,
       "value": "0x34"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 702,
+      "offset": 788,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1004,
+      "offset": 1168,
+      "length": 44,
+      "value": "\"https:\/\/kouventa-livechat-config.helios.id\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1361,
       "length": 35,
-      "value": "\"https:\/\/neo-livechat-be.helios.id\""
+      "value": "\"https:\/\/kouventa-widget.helios.id\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1082,
-      "length": 47,
-      "value": "\"https:\/\/neo-livechat-widget.azurewebsites.net\""
-    },
-    {
-      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1160,
-      "length": 39,
-      "value": "\"neo-livechat-widget.azurewebsites.net\""
-    },
-    {
-      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 1226,
+      "offset": 1569,
       "length": 27,
-      "value": "\"neo-livechat-be.helios.id\""
+      "value": "\"kouventa-widget.helios.id\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1690,
+      "length": 36,
+      "value": "\"kouventa-livechat-config.helios.id\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatEngine.swift",
       "kind": "BooleanLiteral",
-      "offset": 538,
+      "offset": 585,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 583,
+      "offset": 994,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 632,
+      "offset": 1043,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 764,
+      "offset": 1175,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 804,
+      "offset": 1215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 849,
+      "offset": 1260,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "IntegerLiteral",
-      "offset": 900,
+      "offset": 1311,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
       "kind": "BooleanLiteral",
-      "offset": 938,
+      "offset": 1349,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1394,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 6509,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "FloatLiteral",
+      "offset": 6559,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6610,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatOverlayButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6622,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 175,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 217,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 200,
+      "offset": 260,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 461,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 207,
+      "offset": 468,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 229,
+      "offset": 490,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 236,
+      "offset": 497,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 257,
+      "offset": 518,
       "length": 4,
       "value": "0xF5"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 264,
+      "offset": 525,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "FloatLiteral",
-      "offset": 326,
+      "offset": 587,
       "length": 3,
       "value": "0.9"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
       "kind": "IntegerLiteral",
-      "offset": 377,
+      "offset": 638,
       "length": 2,
       "value": "20"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 682,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatPanel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 735,
+      "length": 3,
+      "value": "100"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatResources.swift",
@@ -1271,14 +1446,14 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWebView.swift",
       "kind": "StringLiteral",
-      "offset": 370,
-      "length": 271,
-      "value": "\"var s=document.createElement('style');s.textContent='html,body{overflow:hidden!important;overscroll-behavior:none!important;}::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}';document.head.appendChild(s);\""
+      "offset": 338,
+      "length": 343,
+      "value": "\"var s=document.createElement('style');s.textContent='html,body{overflow:hidden!important;overscroll-behavior:none!important;}::-webkit-scrollbar{display:none!important;width:0!important;height:0!important;}.max-w-md{margin-left:auto!important;margin-right:auto!important;}';document.head.appendChild(s);\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/LiveChatWebView.swift",
       "kind": "BooleanLiteral",
-      "offset": 4446,
+      "offset": 5949,
       "length": 5,
       "value": "false"
     },
@@ -1327,21 +1502,21 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SSEClient.swift",
       "kind": "Array",
-      "offset": 1570,
+      "offset": 2235,
       "length": 20,
       "value": "[1, 2, 4, 8, 16, 30]"
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/ServerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 491,
+      "offset": 504,
       "length": 14,
       "value": "\"agent_unread\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/ServerConfig.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 545,
       "length": 13,
       "value": "\"user_unread\""
     },
@@ -1369,44 +1544,72 @@
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 656,
+      "offset": 668,
+      "length": 20,
+      "value": "\"HeliosImagePreview\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 718,
       "length": 896,
       "value": "\"(function () {\n  if (window.__heliosBridge) return;\n  window.__heliosBridge = 1;\n  var ready = false, queue = [];\n  function post(m) { window.postMessage(m, '*'); if (window.__heliosDebug) { try { console.log('[helios] sent ' + m.type); } catch (e) {} } }\n  function flush() { ready = true; while (queue.length) post(queue.shift()); }\n  window.addEventListener('message', function (e) { if (e.data === 'iframeReady') flush(); });\n  setTimeout(function () { if (!ready) flush(); }, 3000);\n  window.__heliosSetMemberPayload = function (p) {\n    var m = { type: 'SET_MEMBER_PAYLOAD', payload: p };\n    if (ready) { post(m); return; }\n    queue.push(m);\n  };\n  window.__heliosSignOutMember = function () {\n    var m = { type: 'MEMBER_SIGN_OUT' };\n    if (ready) { post(m); return; }\n    queue.push(m);\n  };\n})();\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1665,
+      "offset": 1650,
+      "length": 325,
+      "value": "\"(function () {\n  try {\n    var token = localStorage.getItem('kouventa-livechat.access_token');\n    var expires = Date.parse(localStorage.getItem('kouventa-livechat.expires_at') || '');\n    return !!token && !isNaN(expires) && expires > Date.now();\n  } catch (e) { return false; }\n})();\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2088,
       "length": 65,
       "value": "\"window.__heliosSignOutMember && window.__heliosSignOutMember();\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1764,
+      "offset": 2187,
       "length": 372,
       "value": "\"window.__heliosDebug = true;\n(function () {\n  var orig = console.log;\n  console.log = function () {\n    try {\n      window.webkit.messageHandlers.\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 1959,
+      "offset": 2382,
       "length": 1,
       "value": "\".postMessage(\n        Array.prototype.join.call(arguments, ' ')\n      );\n    } catch (e) {}\n    return orig.apply(console, arguments);\n  };\n})();\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2435,
+      "offset": 2858,
       "length": 253,
       "value": "\"window.HeliosSession = {\n  postMessage: function (id) { window.webkit.messageHandlers.HeliosSession.postMessage(id); },\n  sessionEnded: function () { window.webkit.messageHandlers.HeliosSessionEnded.postMessage('ended'); }\n};\""
     },
     {
       "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
       "kind": "StringLiteral",
-      "offset": 2859,
+      "offset": 3282,
       "length": 1514,
       "value": "\"(function () {\n  if (window.__heliosSessionWatch) return;\n  window.__heliosSessionWatch = 1;\n  var lastToken, lastId = null, busy = false;\n  function log(m) { if (!window.__heliosDebug) return; try { console.log('[helios] ' + m); } catch (e) {} }\n  function keys() { try { return Object.keys(localStorage).join(','); } catch (e) { return '?'; } }\n  function resolve(t) {\n    busy = true;\n    fetch('<API_BASE>\/member\/checkme', { headers: { 'Authorization': 'Bearer ' + t } })\n      .then(function (r) { if (!r.ok) { log('checkme HTTP ' + r.status); return null; } return r.json(); })\n      .then(function (j) {\n        if (!j) return;\n        var id = j.data && j.data.chat_session;\n        if (!id) { log('no chat_session yet'); return; }\n        if (id !== lastId) { lastId = id; HeliosSession.postMessage(id); }\n      })\n      .catch(function (e) { log('checkme failed: ' + e); })\n      .then(function () { busy = false; });\n  }\n  setInterval(function () {\n    var t = null;\n    try { t = localStorage.getItem('kouventa-livechat.access_token'); } catch (e) {}\n    if (t !== lastToken) {\n      var had = !!lastToken;\n      lastToken = t; lastId = null;\n      log(t ? 'token found' : 'no token, keys=[' + keys() + ']');\n      if (had && !t) { try { HeliosSession.sessionEnded(); } catch (e) {} }\n    }\n    if (!t || lastId || busy) return;\n    resolve(t);\n  }, 2000);\n})();\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 4828,
+      "length": 995,
+      "value": "\"(function () {\n  if (window.__heliosImagePreview) return;\n  window.__heliosImagePreview = 1;\n  document.addEventListener('click', function (e) {\n    var img = e.target;\n    if (!(img instanceof HTMLImageElement)) return;\n    if (img.hasAttribute('data-nimg') || img.closest('a')) return;\n    var src = img.currentSrc || img.src;\n    try { if (src) window.webkit.messageHandlers.\""
+    },
+    {
+      "filePath": "\/Users\/singgihramapradana\/Project\/HeliosLiveChatCore\/Sources\/HeliosLiveChatCore\/SessionScriptHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 5272,
+      "length": 1,
+      "value": "\".postMessage(src); } catch (e) {}\n  });\n  \/\/ The listener above already opened the viewer; keep image fullscreen a\n  \/\/ resolved no-op so the page's `await` never throws or double-opens.\n  var original = Element.prototype.requestFullscreen;\n  Element.prototype.requestFullscreen = function () {\n    if (this instanceof HTMLImageElement) return Promise.resolve();\n    if (original) return original.apply(this, arguments);\n    return Promise.reject(new TypeError('Fullscreen API unavailable'));\n  };\n})();\""
     }
   ]
 }
